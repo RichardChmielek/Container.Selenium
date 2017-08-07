@@ -17,7 +17,7 @@ services:
         image: selenium/node-chrome-debug:3.0.1-aluminum
         privileged: true
         depends_on:
-            - selenium_hub
+            - selenium-hub
         ports:
             - 5900
         environment:
@@ -32,7 +32,7 @@ services:
         image: selenium/node-chrome-debug:3.0.1-aluminum
         privileged: true
         depends_on:
-            - selenium_hub
+            - selenium-hub
         ports:
             - 5900
         environment:
@@ -47,7 +47,7 @@ services:
         image: selenium/node-firefox-debug:3.0.1-aluminum
         privileged: true
         depends_on:
-            - selenium_hub
+            - selenium-hub
         ports:
             - 5900
         environment:
